@@ -1,0 +1,33 @@
+Live Demo
+<!DOCTYPE html>
+<html>
+   
+   <head>
+      <title>Hyperlink Example</title>
+   </head>
+	
+   <body>
+      <p>Click following link</p>
+      <a href = "https://www.amazon.com" target = "_self">shopping Point</a>
+
+      
+     {% comment %}
+      1> _blank:  Opens the linked document in a new window or tab. 
+      2> _self : Opens the linked document in the same frame. 
+      3> _parent :Opens the linked document in the parent frame.
+      4> _top : Opens the linked document in the full body of the window.
+      5> targetframe : Opens the linked document in a named targetframe.
+
+ {% endcomment %}
+
+
+<p>Click any of the following links</p>
+      <a href = "/html/1.html" target = "_blank">Opens in New</a> |
+      <a href = "/html/index.htm" target = "_self">Opens in Self</a> |
+      <a href = "/html/index.htm" target = "_parent">Opens in Parent</a> |
+      <a href = "/html/index.htm" target = "_top">Opens in Body</a>
+
+
+   </body>
+	
+</html>
